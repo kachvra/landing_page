@@ -803,11 +803,17 @@ body{
                             i{
                                 color: black;
                                 font-size: 14px;
+
+                                &:hover{
+                                    color: white;
+                                    transition: 0.5s;
+                                }
                             }
 
                             &:hover{
                                 transition: 0.5s;
                                 background-color: var(--Primary-color);
+                                
                             }
                         }
                     }

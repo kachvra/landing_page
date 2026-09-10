@@ -666,6 +666,10 @@ body {
   color: black;
   font-size: 14px;
 }
+#footer .footer-holder .row .col3 .socials-links a i:hover {
+  color: white;
+  transition: 0.5s;
+}
 #footer .footer-holder .row .col3 .socials-links a:hover {
   transition: 0.5s;
   background-color: var(--Primary-color);
